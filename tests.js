@@ -26,5 +26,25 @@ describe("Test that constants are computed properly", function() {
   it("should give false, for an input of a string", function() {
     assert(
       lib.sum_of_prime('s') == false
-  });  
+  }); 
+   it("should give 17, for an input of 10", function() {
+    assert(
+      lib.sum_of_prime(100) == 1060
+    );
+  });
+  it("should give 41, for an input of 15", function() {
+    assert(
+      lib.sum_of_prime(150) == 2276
+    );
+  });
+   it("should give 17, for an input of 10", function() {
+    assert(
+      lib.sum_of_prime(120) == 1593
+    );
+  });
+  it("should give 41, for an input of 15", function() {
+    assert(
+      lib.sum_of_prime(500) == 21536
+    );
+  });
 });
