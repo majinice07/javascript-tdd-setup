@@ -1,7 +1,7 @@
 var chai = require('chai');
 var assert = chai.assert;
 
-var lib = require('./lib/sum_of_file.js');
+var lib = require('./lib/sum_of_primes.js');
 
 describe("Test that constants are computed properly", function() {
   it("should give 10, for an input of 5", function() {
